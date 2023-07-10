@@ -1,98 +1,86 @@
 #patterns
 #program1
 
-def a(n):
-    for i in range(0,n):
+n=5
+for i in range(0,n):
         for i in range(0,i+1):
             print("*",end=" ")
         print("\r")
-n=5
-a(n)
+
 
 #program 2
-
-
-def a(n):
-    k=2*n-2
-    for i in range(0,n):
+n=5
+k=2*n-2
+for i in range(0,n):
         for j in range(0,k):
             print(end =" ")
         k=k-2
         for j in range(0,i+1):
                 print("*",end=" ")
         print("\r")
-n=5
-a(n)
 
 #program 3
 
 
-def triangle(n):
-    k=n-1
-    for i in range(0,n):
+n=5
+k=n-1
+for i in range(0,n):
         for j in range(0,k):
             print(end=" ")
         k=k-1
         for j in range(0,i+1):
             print("*",end=" ")
         print("\r")
-n=5
-triangle(n)
 
 #program 4
 
 
-def a(n):
-    num =1
-    for i in range(0,n):
+n=5
+num =1
+for i in range(0,n):
         num=1
         for j in range(0,i+1):
             print(num,end =" ")
             num = num+1
         print("\r")
-n=5
-a(n)
+
 
 #program 5
 
 
-def anum(n):
-    num =1
-    for i in range(0,n):
+n=5
+num =1
+for i in range(0,n):
         for j in range(0,i+1):
             print(num,end=" ")
             num=num+1
         print("\r")
-n=5
-anum(n)
+
 
 #program 6
 
 
-def alphabet(n):
-    num=65
-    for i in range(0,n):
+n=5
+num=65
+for i in range(0,n):
         for j in range(0,i+1):
             ch=chr(num)
             print(ch, end=" ")
         num = num+1
         print("\r")
-n=5
-alphabet(n)
+
 
 
 #program 7
 
-def alphabets(n):
-    num=65
-    for i in range(0,n):
+n=5
+num=65
+for i in range(0,n):
         for j in range(0,i+1):
             ch=chr(num)
             print(ch, end=" ")
             num = num+1
         print("\r")
-n=5
-alphabets(n)
 
 
 #program 8
