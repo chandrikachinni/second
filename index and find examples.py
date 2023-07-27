@@ -47,6 +47,7 @@
 # print(x)
 # 14
 
-txt="hello,welcome to my world"
-x=txt.find("e",5,10)
-print(x)
+# txt="hello,welcome to my world"
+# x=txt.find("e",5,10)
+# print(x)
+# 7
