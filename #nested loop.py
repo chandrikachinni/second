@@ -1,10 +1,10 @@
 
 #nested or loop
 
-#for i in range(1,11):
+# for i in range(1,11):
 #   for j in range(1,11):
-#        print(i*j,end=:"")
-#    print()
+#        print(i*j,end="")
+# print()
 
 
 # x=int(input("enter x value:"))
@@ -15,22 +15,26 @@
 #     print()
 
 
-#right triangle pattern
+# names = ['Kelly', 'Jessa', 'Emma']
+# for name in names:
+#     count = 0
+#     while count < 5:
+#         print(name, end=' ')
+#         count = count + 1
+#     print()
 
-for i in range(1,6):
-    for j in range(1,i+1):
-        print("*",end="")
-    print()
+# for i in range(3):
+#     for j in range(2):
+#         print('hello')
+  
+
+# for i in range(3):
+#     for j in range(2):
+#         print('i={},j={}'.format(i,j))
 
 
-    #rectangular pattern
-    #r=int(input("enter no of rows:"))
-    #c=int(inpt("enter no of colums:"))
-    #for i in range(r):
-    #     for j in range(c):
-    #         print("*",end="")
-    #    print()
-    
+
+
 
 
 
